@@ -77,7 +77,7 @@ def app():
 		raw_text = st.text_area("Enter the exact twitter handle of the Personality (without @)")
 
 
-		Analyzer_choice = st.selectbox("Select the Activities",  ["Generate WordCloud" ,"Visualize the Sentiment Analysis"])
+		Analyzer_choice = st.selectbox("Select the Activities",  ["Show Recent Tweets","Generate WordCloud" ,"Visualize the Sentiment Analysis"])
 
 
 		if st.button("Analyze"):
@@ -213,11 +213,11 @@ def app():
 
 	else:
 
-		st.subheader("This project was done by Drumil T Joshi")
+		st.subheader("This project was done by Drumil T Joshi(https://www.linkedin.com/in/drumil-joshi-00636716a/)")
 
 
 
-	st.subheader(' ------------------------Drumil T Joshi ----------------------')
+	st.subheader(' ------------------------A project by : Drumil T Joshi ----------------------')
 
 
 
