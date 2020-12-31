@@ -213,7 +213,7 @@ def app():
 
 	else:
 
-		st.subheader("This project was done by Drumil T Joshi(https://www.linkedin.com/in/drumil-joshi-00636716a/)")
+		st.subheader("This project was done by Drumil Joshi(https://www.linkedin.com/in/drumil-joshi-00636716a/)")
 
 
 
