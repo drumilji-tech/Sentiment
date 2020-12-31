@@ -25,11 +25,12 @@ api = tweepy.API(authenticate, wait_on_rate_limit = True)
 
 #plt.style.use('fivethirtyeight')
 def app():
-    st.title("Sentiment  Analyzer  🔥🔥🔥🔥")
-    activities=["Sentiment Tweet Analyzer","Contact"]
-	choice = st.sidebar.selectbox("Select Your Activity",activities)	
-    
-	if choice=="Sentiment Tweet Analyzer":
+	 st.title("Sentiment  Analyzer  🔥🔥🔥🔥")
+    	st.sidebar.selectbox("Sentiment Tweet Analyzer")
+	
+   
+	
+  	if choice=="Sentiment Tweet Analyzer":
 		st.subheader("Analyze the sentiments of any Twitter User")
 		st.subheader("This web app performs the following tasks :")
 		st.write("1. Generates a Word Cloud")
