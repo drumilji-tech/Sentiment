@@ -30,7 +30,7 @@ api = tweepy.API(authenticate, wait_on_rate_limit = True)
 def app():
 
 
-	st.title("Sentiment Analyzer 😎👦Hundred Points ")
+	st.title("Sentiment Analyzer 👦📊📉📈💻💯👨🏾‍💻")
 
 
 	tasks=["Sentiment Tweet Analyzer","Contact Me"]
@@ -193,7 +193,7 @@ def app():
 
 
 
-	st.subheader(' ------------------------A project by : Drumil T Joshi👦👦👦 ----------------------')
+	st.subheader('-----------------------A project by : Drumil T Joshi👦👦👦 --------------------')
 
 
 
