@@ -193,7 +193,7 @@ def app():
 
 
 
-	st.subheader('--------------A project by :[Drumil T Joshi](https://www.linkedin.com/in/drumil-joshi-00636716a/)👦👦👦 ---------')
+	st.subheader('--------------->>A project by :[Drumil T Joshi](https://www.linkedin.com/in/drumil-joshi-00636716a/)👦👨🏾‍💻👦<<---------------')
 
 
 
