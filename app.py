@@ -27,39 +27,15 @@ authenticate.set_access_token(accessToken, accessTokenSecret)
 api = tweepy.API(authenticate, wait_on_rate_limit = True)
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-#plt.style.use('fivethirtyeight')
-
-
-
-
-
-
-
-
-
-
 def app():
 
 
-	st.title("Sentiment Tweet Analyzer 🔥🔥🔥🔥")
+	st.title("Sentiment Analyzer 😎👦Hundred Points ")
 
 
-	activities=["Sentiment Tweet Analyzer","Contact Me"]
+	tasks=["Sentiment Tweet Analyzer","Contact Me"]
 
-	choice = st.sidebar.selectbox("Select Your Activity",activities)
+	choice = st.sidebar.selectbox("Select The Task to be performed",tasks)
 
 	
 
@@ -74,10 +50,10 @@ def app():
 		st.write("2. Performing Sentiment Analysis and displays it in the form of a Bar Graph")
 
 
-		raw_text = st.text_area("Enter the exact twitter handle of the Personality (without @)")
+		raw_text = st.text_area("Enter the twitter username(handle) of the Twitter User (without @)")
 
 
-		Analyzer_choice = st.selectbox("Select the Activities",  ["Show Recent Tweets","Generate WordCloud" ,"Visualize the Sentiment Analysis"])
+		Analyzer_choice = st.selectbox("Select the Tasks",  ["Show Recent Tweets","Generate WordCloud" ,"Visualize the Sentiment Analysis"])
 
 
 		if st.button("Analyze"):
@@ -213,11 +189,11 @@ def app():
 
 	else:
 
-		st.subheader("This project was done by Drumil Joshi(https://www.linkedin.com/in/drumil-joshi-00636716a/)")
+		st.subheader("This project was done by Drumil Joshi"(https://www.linkedin.com/in/drumil-joshi-00636716a/))
 
 
 
-	st.subheader(' ------------------------A project by : Drumil T Joshi ----------------------')
+	st.subheader(' ------------------------A project by : Drumil T Joshi👦👦👦 ----------------------')
 
 
 
