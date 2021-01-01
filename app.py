@@ -30,7 +30,7 @@ api = tweepy.API(authenticate, wait_on_rate_limit = True)
 def app():
 
 
-	st.title("Sentiment Analyzer 👦📊📉📈💻💯👨🏾‍💻")
+	st.title("Assorted Sentiment Analyzer📊📉📈💻💯👨🏾‍💻")
 
 
 	tasks=["Sentiment Tweet Analyzer","Contact Me"]
