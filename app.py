@@ -189,11 +189,11 @@ def app():
 
 	else:
 
-		st.subheader("This project was done by 1.[Drumil Joshi](https://www.linkedin.com/in/drumil-joshi-00636716a/)2.[Kartik Gaglani](https://www.linkedin.com/in/kartik-gaglani-63bb2a186/)")
+		st.subheader("This project was done by 1-?[Drumil Joshi](https://www.linkedin.com/in/drumil-joshi-00636716a/)2->[Kartik Gaglani](https://www.linkedin.com/in/kartik-gaglani-63bb2a186/)3->[Charvin Zaveri](https://www.linkedin.com/in/charvin-zaveri-b92aa118b/)")
 
 
 
-	st.subheader('--------------->>A project by :[Drumil T Joshi](https://www.linkedin.com/in/drumil-joshi-00636716a/)👦👨🏾‍💻👦<<---------------')
+	st.subheader('--------------->>A project by :DJSCE STUDENTS<<---------------')
 
 
 
