@@ -30,10 +30,10 @@ api = tweepy.API(authenticate, wait_on_rate_limit = True)
 def app():
 
 
-	st.title("Assorted Sentiment Analyzer📊📉📈💻💯👨🏾‍💻")
+	st.title("Assorted Sentiment Analyzer📊📉📈👨🏾‍💻")
 
 
-	tasks=["Sentiment Tweet Analyzer","Contact Me"]
+	tasks=["Sentiment Tweet Analyzer","Contact Us"]
 
 	choice = st.sidebar.selectbox("Select The Task to be performed",tasks)
 
@@ -189,7 +189,7 @@ def app():
 
 	else:
 
-		st.subheader("This project was done by [Drumil Joshi](https://www.linkedin.com/in/drumil-joshi-00636716a/)")
+		st.subheader("This project was done by 1.[Drumil Joshi](https://www.linkedin.com/in/drumil-joshi-00636716a/)2.[Kartik Gaglani](https://www.linkedin.com/in/kartik-gaglani-63bb2a186/)")
 
 
 
